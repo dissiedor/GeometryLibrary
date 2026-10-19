@@ -13,4 +13,7 @@ public class Cube implements ThreeDimensionalShape{
     public double calculateVolume(){
         return side * side * side;
     }
+    public double getSpaceDiagonal(){
+        return side*Math.sqrt(3);
+    }
 }
